@@ -1,0 +1,7 @@
+server types : Web Server & Application server
+
+web sever :- when we hit request on web it goes to Application server  (enginx)
+
+Application Server : (puma server)
+
+Rack : maintains the communication between application server and Web server it is kind of middleware 

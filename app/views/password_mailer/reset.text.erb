@@ -1,0 +1,8 @@
+Hi <%= params[:user].email %>
+
+gorails has requested to reset your password,
+
+if this was you click on elow link and reset your password. The Link will expire automaticaly in 15 minutes.
+
+<%= password_reset_edit_url(token: @token) %>
+
